@@ -1,0 +1,16 @@
+import 'package:flutter/material.dart';
+
+class AboutUsPage extends StatelessWidget {
+  const AboutUsPage({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(title: const Text('About Us')),
+      body: const Padding(
+        padding: EdgeInsets.all(16),
+        child: Text('We connect farmers directly to consumers for fresh, sustainable produce.'),
+      ),
+    );
+  }
+}
